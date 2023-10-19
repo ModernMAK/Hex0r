@@ -44,7 +44,7 @@ function markup_hex0rwindow(div) {
                 }
 
                 $("table tr td:last", div).addClass("hex0rwindow_code_hi hex0rwindow_border_middle");
-                $("table tr td:last", div).attr("style", "backround-color: " + highlights[idx][2] + ";");
+                $("table tr td:last", div).attr("style", "background: " + highlights[idx][2] + ";");
                 $("table tr td:last", div).attr("title", highlights[idx][3]);
 
                 runlen += 1;
